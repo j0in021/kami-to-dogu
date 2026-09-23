@@ -47,6 +47,7 @@ main:hover{
   height: var(--thumbnail-height);
   aspect-ratio:var(--thumbnail-aspect-ratio);
   object-fit:cover;
+  object-position: center center;
 
 }
 
