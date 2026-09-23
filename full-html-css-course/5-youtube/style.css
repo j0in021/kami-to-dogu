@@ -46,10 +46,7 @@ main:hover{
   width: 300px;
 }
 
-.video-author,
-.video-stats {
-  display: inline-block;
-}
+
 .thumbnail{
   width: var(--thumbnail-width);
   height: var(--thumbnail-height);
