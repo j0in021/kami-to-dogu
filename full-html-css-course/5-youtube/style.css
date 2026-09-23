@@ -11,9 +11,11 @@
   --thumbnail-width: 100%;
   --thumbnail-aspect-ratio: 16 / 9;
   --thumbnail-object-fit: cover;
+  --thumbnail-height:600px;
 }
 title{
   font-size: 14px;
+  font-weight: 500;
 }
 body{
 background-color:#f8f8f8;
@@ -40,8 +42,10 @@ main{
 
 .thumbnail{
   width: var(--thumbnail-width);
+  height: var(--thumbnail-height);
   aspect-ratio:var(--thumbnail-aspect-ratio)
   object-fit:cover;
+
 }
 
 .creater_icon{
