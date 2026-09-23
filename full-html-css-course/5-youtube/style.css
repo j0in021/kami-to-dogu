@@ -77,10 +77,20 @@ main:hover{
   width: 50px;
 }
 
-.video-info {
-  width: 200px;
+.video-title {
+  margin-top: 0;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
 }
 
 .profile-picture {
-  width: 100%;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.video-info {
+  width: 200px;
+  vertical-align: top;
 }
