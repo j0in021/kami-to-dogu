@@ -48,7 +48,7 @@ main:hover{
   aspect-ratio:var(--thumbnail-aspect-ratio);
   object-fit:cover;
   object-position: center center;
-
+  border: 2px solid red;
 }
 
 .creater_icon{
