@@ -25,7 +25,7 @@
 1. Supabaseにこの練習用の新しいプロジェクトを作る。実店舗や「まるの森。」のDBを使わない。
 2. [setup.sql](supabase/setup.sql)をSQL Editorで実行する。3商品のデモデータ、注文・注文明細・管理者表、権限、価格再計算と状態遷移のDB関数が作られる。
 3. Supabase Authで店舗担当者のテストアカウントを1つ作り、そのユーザーIDをsetup.sql末尾のadmin_users追加文へ入れて別途実行する。Authユーザーだけでは管理権限にならない。
-4. VercelでこのdesignフォルダをRoot Directoryとしてデプロイする。環境変数SUPABASE_URL、SUPABASE_PUBLISHABLE_KEY、SUPABASE_SECRET_KEYを設定する。SECRET_KEYはサーバーだけで使い、公開ファイルへ書かない。
+4. VercelでこのリポジトリのルートをRoot Directoryとしてデプロイする。環境変数SUPABASE_URL、SUPABASE_PUBLISHABLE_KEY、SUPABASE_SECRET_KEYを設定する。SECRET_KEYはサーバーだけで使い、公開ファイルへ書かない。
 5. 公開URLのトップで模擬決済し、注文番号を記録する。/adminでログインし、その注文を受付→発送完了へ変更する。別の注文では未対応→お断りを試す。未ログインで/api/admin-ordersを読むと401、一般ユーザーでは403になることを確認する。
 
 実際の課金APIはなく、「決済する（デモ）」は商品IDと数量だけをサーバーへ送る。DB関数が商品価格を読み直して注文を原子的に保存する。同じ注文キーを再送しても同じ注文を返す。状態変更は未対応→受付/お断り、受付→発送完了だけを許す。顧客入力はexample.comのテスト用メールと「架空」で始まる住所に限定する。
