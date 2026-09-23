@@ -41,9 +41,6 @@ main:hover{
   background-color:#eeeeee;
 }
 
-.video-title {
-  width: 300px;
-}
 
 
 .thumbnail{
@@ -69,4 +66,21 @@ main:hover{
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+}
+
+.channel-picture,
+.video-info {
+  display: inline-block;
+}
+
+.channel-picture {
+  width: 50px;
+}
+
+.video-info {
+  width: 200px;
+}
+
+.profile-picture {
+  width: 100%;
 }
