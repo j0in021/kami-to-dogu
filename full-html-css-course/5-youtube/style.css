@@ -4,7 +4,6 @@
   --startposition-top:80px;
   --start-position-left:96px;
   --startp-position-margin-right:24px;
-  --thumbnail-width:100%;
   --card-columm-gap:16px;
   --card-row-gap:40px;
   font-family:Roboto,Arial,sans-serif;
@@ -39,11 +38,14 @@ header {
 main{
   color: #0f0f0f;
 }
+main:hover{
+  background-color:#eeeeee;
+}
 
 .thumbnail{
   width: var(--thumbnail-width);
   height: var(--thumbnail-height);
-  aspect-ratio:var(--thumbnail-aspect-ratio)
+  aspect-ratio:var(--thumbnail-aspect-ratio);
   object-fit:cover;
 
 }
