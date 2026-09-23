@@ -10,7 +10,6 @@
   --thumbnail-width: 100%;
   --thumbnail-aspect-ratio: 16 / 9;
   --thumbnail-object-fit: cover;
-  --thumbnail-height:600px;
 }
 title{
   font-size: 14px;
@@ -49,10 +48,8 @@ main:hover{
 
 .thumbnail{
   width: var(--thumbnail-width);
-  height: var(--thumbnail-height);
   aspect-ratio:var(--thumbnail-aspect-ratio);
   object-fit: cover;
-  object-position: center center;
   display: block;
 }
 
@@ -67,7 +64,7 @@ main:hover{
   border-radius: 0%;
 }
 
-.video-preview {
+.video-card {
   width: 300px;
   display: inline-block;
   vertical-align: top;
