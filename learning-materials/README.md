@@ -4,10 +4,11 @@ HTML・CSS・JavaScriptの学習で使った教材へのリンクと、自分の
 
 ## 学習教材
 
-2026-09-23更新。下記のJavaScript動画をGeminiと進めます。教材の選択と視聴・習得の完了は別に記録します。
+2026-09-23更新。下記のHTML・CSS動画とJavaScript動画をGeminiと進めます。教材の選択と視聴・習得の完了は別に記録します。
 
 | 分野 | 教材名・公開URL | 今回の範囲 | 学習日 | 自分で確認したこと |
 | --- | --- | --- | --- | --- |
+| HTML・CSS | [HTML & CSS Full Course - Beginner to Pro](https://youtu.be/G3e-cpL7ofc) | Geminiと学習。取り組んだ章・再生位置は学習後に追記 | 未記録 | 未確認 |
 | JavaScript | [JavaScript Tutorial Full Course - Beginner to Pro](https://youtu.be/EerdGm-ehJQ) | Geminiと学習。取り組んだ章・再生位置は学習後に追記 | 未記録 | 未確認 |
 
 ## 以前の教材
