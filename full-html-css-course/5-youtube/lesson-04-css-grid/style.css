@@ -1,0 +1,24 @@
+.A,.C{
+background-color:#ADD8E6;
+}
+.B,.D{
+background-color:#FFB6C1;
+}
+
+.video-card1{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.video-card2{
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+}
+
+.video-card3{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.video-card4{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+}

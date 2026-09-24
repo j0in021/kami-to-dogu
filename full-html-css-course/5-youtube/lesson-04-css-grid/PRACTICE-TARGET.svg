@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <g fill="#000000">
+    <text x="8" y="46" font-size="32" font-weight="700">Lesson 04|CSS Grid</text>
+
+    <text x="8" y="91" font-size="16">1｜100px・100pxの2列</text>
+    <rect x="8" y="106" width="100" height="70" fill="#add8e6"/>
+    <rect x="108" y="106" width="100" height="70" fill="#ffb6c1"/>
+    <text x="8" y="123" font-size="16">div 1</text>
+    <text x="108" y="123" font-size="16">div 2</text>
+    <text x="108" y="158" font-size="16">文章を追加</text>
+
+    <text x="8" y="217" font-size="16">2｜100px・100px・200px（3列＋自動改行）</text>
+    <rect x="8" y="232" width="100" height="19" fill="#add8e6"/>
+    <rect x="108" y="232" width="100" height="19" fill="#ffb6c1"/>
+    <rect x="208" y="232" width="200" height="19" fill="#add8e6"/>
+    <rect x="8" y="251" width="100" height="19" fill="#ffb6c1"/>
+    <text x="8" y="248" font-size="16">div 1</text><text x="108" y="248" font-size="16">div 2</text><text x="208" y="248" font-size="16">div 3</text><text x="8" y="267" font-size="16">div 4</text>
+
+    <text x="8" y="311" font-size="16">3｜100px・1fr（固定幅＋残り幅）</text>
+    <rect x="8" y="326" width="100" height="19" fill="#add8e6"/>
+    <rect x="108" y="326" width="784" height="19" fill="#ffb6c1"/>
+    <text x="8" y="342" font-size="16">div 1</text><text x="108" y="342" font-size="16">div 2（残り幅）</text>
+
+    <text x="8" y="386" font-size="16">4|100px・1fr・2fr（残り幅を1：2</text>
+    <rect x="8" y="401" width="100" height="19" fill="#add8e6"/>
+    <rect x="108" y="401" width="261.33" height="19" fill="#ffb6c1"/>
+    <rect x="369.33" y="401" width="522.67" height="19" fill="#add8e6"/>
+    <text x="8" y="417" font-size="16">div 1</text><text x="108" y="417" font-size="16">div 2 1fr</text><text x="369.33" y="417" font-size="16">div 3 2fr</text>
+  </g>
+</svg>

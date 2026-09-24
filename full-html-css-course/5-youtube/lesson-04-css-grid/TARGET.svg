@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#f8f8f8"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(17 16)">
+      <image href="../img/thumbnail-01-code-workspace.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">HTMLとCSSを基礎から学ぶ</text>
+      <text x="50" y="204" font-size="12" fill="#606060">VideoLab</text><text x="50" y="222" font-size="12" fill="#606060">150万回視聴 · 6か月前</text>
+    </g>
+    <g transform="translate(311 16)">
+      <image href="../img/thumbnail-02-keyboard-desk.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">集中できる作業環境の作り方</text>
+      <text x="50" y="204" font-size="12" fill="#606060">DeskLab</text><text x="50" y="222" font-size="12" fill="#606060">82万回視聴 · 2か月前</text>
+    </g>
+    <g transform="translate(605 16)">
+      <image href="../img/thumbnail-03-design-planning.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">仕様書から画面を組み立てる</text>
+      <text x="50" y="204" font-size="12" fill="#606060">DesignLab</text><text x="50" y="222" font-size="12" fill="#606060">63万回視聴 · 3週間前</text>
+    </g>
+    <g transform="translate(17 266)">
+      <image href="../img/thumbnail-04-css-grid-blocks.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">CSS Gridで一覧を整える</text>
+      <text x="50" y="204" font-size="12" fill="#606060">LayoutLab</text><text x="50" y="222" font-size="12" fill="#606060">97万回視聴 · 1か月前</text>
+    </g>
+    <g transform="translate(311 266)">
+      <image href="../img/thumbnail-05-city-coding-night.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">夜のコーディングルーティン</text>
+      <text x="50" y="204" font-size="12" fill="#606060">CodeNight</text><text x="50" y="222" font-size="12" fill="#606060">41万回視聴 · 5日前</text>
+    </g>
+    <g transform="translate(605 266)">
+      <image href="../img/thumbnail-06-forest-morning.png" width="278" height="156.375" preserveAspectRatio="xMidYMid slice"/>
+      <image href="../img/icons/avatar-profile.svg" x="0" y="169" width="40" height="40"/>
+      <text x="50" y="183" font-size="14" font-weight="500" fill="#0f0f0f">朝の集中時間を作る</text>
+      <text x="50" y="204" font-size="12" fill="#606060">MorningLab</text><text x="50" y="222" font-size="12" fill="#606060">35万回視聴 · 2週間前</text>
+    </g>
+  </g>
+</svg>
