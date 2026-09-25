@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Flexboxを適用したヘッダー外枠</title><desc id="desc">左・中央・右の3区画と6件の動画カード</desc>
+<rect width="900" height="520" fill="white"/>
+<g font-family="Roboto, Arial, sans-serif">
+  <rect x="0" y="0" width="150" height="55" fill="lightblue"/><text x="8" y="34" font-size="14">left section</text>
+  <rect x="220" y="0" width="500" height="55" fill="lightpink"/><rect x="220" y="10" width="300" height="34" fill="white" stroke="#aaa"/><text x="230" y="32" font-size="14" fill="#777">Search</text>
+  <rect x="700" y="0" width="200" height="55" fill="lightblue"/><text x="708" y="34" font-size="14">right section</text>
+  <image href="../img/thumbnail-01-code-workspace.png" x="0" y="75" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../img/thumbnail-02-keyboard-desk.png" x="300" y="75" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../img/thumbnail-03-design-planning.png" x="600" y="75" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../img/thumbnail-04-css-grid-blocks.png" x="0" y="315" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../img/thumbnail-05-city-coding-night.png" x="300" y="315" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../img/thumbnail-06-forest-morning.png" x="600" y="315" width="284" height="160" preserveAspectRatio="xMidYMid slice"/>
+</g>
+</svg>
+
