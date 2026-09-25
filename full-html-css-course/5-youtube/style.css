@@ -66,13 +66,6 @@ p{
   border-radius: 0%;
 }
 
-.video-card {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
-
 .video-title {
   margin-bottom: 12px;
   font-size: 14px;
@@ -102,4 +95,11 @@ p{
 .video-info-row{
  display: grid;
  grid-template-columns: 50px 1fr;
+}
+
+.video-grids{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap:16px;
+  row-gap:40px;
 }
